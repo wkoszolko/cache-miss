@@ -18,7 +18,7 @@ public class CacheMissBenchmark {
 
     @State(Scope.Benchmark)
     public static class ExecutionPlan {
-        @Param({ "8000000" })
+        @Param({ "10000000" })
         int size;
         double[] array;
         @Setup(Level.Invocation)
